@@ -1,0 +1,47 @@
+/* You can add global styles to this file, and also import other style files */
+
+#socialLinks {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#socialLinks h3 {
+  border-bottom: 1px solid black;
+  text-align: center;
+}
+
+#socialLinks i {
+  font-size: 54px;
+}
+
+footer {
+  text-align: center;
+}
+
+.scroll {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  display: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.correct {
+  background-color: forestgreen;
+  color: aliceblue;
+}
+
+.incorrect {
+  background-color: crimson;
+  color: aliceblue;
+}
+
+.list-group-item {
+  cursor: pointer;
+}
+
+

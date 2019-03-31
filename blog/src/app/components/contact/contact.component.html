@@ -1,0 +1,57 @@
+<div class="container" >
+
+  <form>
+    <div class="form-group">
+      <label for="firstName">Imię</label>
+      <input class="form-control" id="firstName" placeholder="Imię">
+    </div>
+    <div class="form-group">
+      <label for="lastName">Nazwisko:</label>
+      <input class="form-control" id="lastName" placeholder="Nazwisko">
+    </div>
+    <div class="form-group">
+      <label for="email">Adres email</label>
+      <input type="email" class="form-control" id="email" aria-describedby="email" placeholder="Email">
+    </div>
+    <div class="form-group">
+      <div class="custom-control custom-radio">
+        <input type="radio" id="male" name="male" class="custom-control-input">
+        <label class="custom-control-label" for="male">Mężczyzna</label>
+      </div>
+      <div class="custom-control custom-radio">
+        <input type="radio" id="female" name="female" class="custom-control-input">
+        <label class="custom-control-label" for="female">Kobieta</label>
+      </div>
+    </div>
+    <div class="form-group">
+      <label for="description">Opis:</label>
+      <textarea id="description" rows="4" cols="50" class="form-control"></textarea>
+    </div>
+    <div class="form-group">
+      <label for="age">Wiek</label>
+      <input type="number" class="form-control" id="age" value="18">
+    </div>
+    <div class="form-group">
+      <label for="maritalStatus">Stan cywilny:</label>
+      <select id="maritalStatus" class="form-control">
+        <option value="KawalerPannna">Kawaler, Pannna</option>
+        <option value="ZonatyMezatka">Żonaty, Mężatka</option>
+        <option value="RozwiedzionyRozwiedziona">Rozwiedziony, Rozwiedziona</option>
+        <option value="WdowiecWdowa">Wdowiec, Wdowa</option>
+      </select>
+    </div>
+    <button type="clear" class="btn btn-danger">Wyczyść</button>
+    <button type="submit" class="btn btn-primary">Wyślij</button>
+
+  </form>
+
+  <div class="scroll">
+    <button class="btn btn-success">
+      <i class="fa fa-arrow-circle-up" aria-hidden="true"></i>Do góry
+    </button>
+  </div>
+
+
+
+</div>
+<footer>Copyrights © Mateusz Niziołek | 2019 </footer>
